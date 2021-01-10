@@ -106,7 +106,7 @@ header .navigation a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 60px;
     transition: 0.3s;
     transition-property: transform;
 }
@@ -276,3 +276,57 @@ label{
 .about-media-icons a:hover{
     transform: scale(1.8);
 }
+
+.blog-media-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    transition: 0.3s;
+    transition-property: transform;
+}
+
+.blog-media-icons a{
+    position: relative;
+    
+    color:rgb(51, 50, 50);
+    font-size: 25px;
+}
+
+.blog-media-icons a:not(:last-child){
+    margin-right: 60px;
+}
+
+.contact-media-icons a:hover{
+    transform: scale(1.8);
+}
+
+
+
+.contact-media-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    transition: 0.3s;
+    transition-property: transform;
+}
+
+.contact-media-icons a{
+    position: relative;
+    
+    color:rgb(51, 50, 50);
+    font-size: 25px;
+}
+
+.contact-media-icons a:not(:last-child){
+    margin-right: 60px;
+}
+
+.contact-media-icons a:hover{
+    transform: scale(1.8);
+}
+
+
